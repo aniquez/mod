@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div class="row">
+    <div class="span5 offset3 well">
+        <form class="form well" method="POST" action=".">
+        {%csrf_token%}
+            <fieldset>
+                <legend>Existing Users Login</legend>
+
+                    <label for="username">Username</label>
+                    <div class="div_text">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-user"></i></span>
+                            <input type="text" name="username" class="span4" value="">
+                        </div>
+                    </div>
+
+                    <label for="password">Password</label>
+                    <div class="div_text">
+                        <div class="input-prepend">
+                            <span class="add-on"><i class="icon-lock"></i></span>
+                            <input type="password" name="password" class="span4">
+                        </div>
+                    </div>
+
+                    <input type="hidden" value="{{next}}" name="next">
+                    <div class="button_div">
+                        <input type="checkbox" value="forever" id="rememberme" name="rememberme">
+                        &nbsp;Remember me&nbsp;&nbsp;<input type="submit" class="btn btn-primary" value="Login" name="Submit">
+                    </div>
+
+                    {% if form.errors %}
+                    <div class="control-group error">
+                        <label class="control-label">Sorry, that's not a valid username or password</label>
+                    </div>
+                    {% endif %}
+
+                    <div class="clear"></div>
+                    <div align="left">Forgot password?&nbsp;<a href="/registration/forgot-password/">Click here to reset</a></div>
+                    <div align="left">New User?&nbsp;<a href="/registration/register/">Click here to register</a></div>
+                    <div class="clear"></div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+{%endblock%}
+
+{% block footer_js_css %}
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+});
+
+</script>
+
+{%endblock%}

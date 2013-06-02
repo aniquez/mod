@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Helvetica Neue LT;
+    src: url('/static/fonts/Helvetica/HelveticaNeueLT-BlackCond.otf'); 
+}
+@font-face {
+    font-family: Helvetica Neue Roman;
+    src: url('/static/fonts/Helvetica/HelveticaNeue-Roman.otf'); 
+}
+
+@font-face {
+    font-family: Helvetica Thin;
+    src: url('/static/fonts/Helvetica/helveticathin.otf'); 
+}
+
+@font-face {
+    font-family: Helvetica Light;
+    src: url('/static/fonts/Helvetica/Helvetica-Light.otf'); 
+}
+
+@font-face {
+    font-family: Homizio;
+    src: url('/static/fonts/Homizio/regular.otf'); 
+}
+@font-face {
+    font-family: Homizio Bold;
+    src: url('/static/fonts/Homizio/bold.otf');                                                                                                                          
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('/static/fonts/ProximaNova/ProximaNova-Regular.otf'); 
+}
+@font-face {
+    font-family: ProximaNova Semibold;
+    src: url('/static/fonts/ProximaNova/ProximaNova-Semibold.otf'); 
+}
+@font-face {
+    font-family: ProximaNova Light;
+    src: url('/static/fonts/ProximaNova/ProximaNova-Light.otf'); 
+}
+@font-face {
+    font-family: ProximaNova LightItalic;
+    src: url('/static/fonts/ProximaNova/ProximaNova-LightItalic.otf'); 
+}
+@font-face {
+    font-family: ProximaNova RegularItalic;
+    src: url('/static/fonts/ProximaNova/ProximaNova-RegItalic.otf'); 
+}
+@font-face {
+    font-family: ProximaNova Bold;
+    src: url('/static/fonts/ProximaNova/ProximaNova-Bold.otf'); 
+}
+@font-face {
+    font-family: ProximaNova ExtraBold;
+    src: url('/static/fonts/ProximaNova/ProximaNova-ExtraBold.otf'); 
+}
+@font-face {
+    font-family: ProximaNova BoldIt;
+    src: url('/static/fonts/ProximaNova/ProximaNova-BoldIt.otf'); 
+}
+@font-face {
+    font-family: ProximaNova Bold;
+    src: url('/static/fonts/ProximaNova/ProximaNova-Black.otf'); 
+}
+
+
+
